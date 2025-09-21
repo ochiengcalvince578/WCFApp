@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedHost", "Getti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host472", "Host472\Host472.csproj", "{CAC310BD-557C-4C03-87C6-657F6C647DD1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedClient", "GettingStartedClient\GettingStartedClient.csproj", "{62440B22-A3E6-4015-93E4-2BD2981AAAD2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2CEAD028-C72F-4E76-9B33-F8FD0EC9D07B} = {2CEAD028-C72F-4E76-9B33-F8FD0EC9D07B}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +32,10 @@ Global
 		{CAC310BD-557C-4C03-87C6-657F6C647DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAC310BD-557C-4C03-87C6-657F6C647DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAC310BD-557C-4C03-87C6-657F6C647DD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62440B22-A3E6-4015-93E4-2BD2981AAAD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62440B22-A3E6-4015-93E4-2BD2981AAAD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62440B22-A3E6-4015-93E4-2BD2981AAAD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62440B22-A3E6-4015-93E4-2BD2981AAAD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
