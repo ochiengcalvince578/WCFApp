@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedLib", "Gettin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedHost", "GettingStartedHost\GettingStartedHost.csproj", "{F3FF256C-2B95-4E52-A7C3-FD0B83B30F63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host472", "Host472\Host472.csproj", "{CAC310BD-557C-4C03-87C6-657F6C647DD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F3FF256C-2B95-4E52-A7C3-FD0B83B30F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3FF256C-2B95-4E52-A7C3-FD0B83B30F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3FF256C-2B95-4E52-A7C3-FD0B83B30F63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAC310BD-557C-4C03-87C6-657F6C647DD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC310BD-557C-4C03-87C6-657F6C647DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC310BD-557C-4C03-87C6-657F6C647DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC310BD-557C-4C03-87C6-657F6C647DD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

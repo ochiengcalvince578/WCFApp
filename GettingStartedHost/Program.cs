@@ -1,6 +1,5 @@
 ﻿using System;
 using System.ServiceModel;
-using System.ServiceModel.Description;
 using GettingStartedLib;
 
 
@@ -19,7 +18,7 @@ namespace GettingStartedHost
             //Step 2: Create a SericeHost instance.
             ServiceHost selfHost = new ServiceHost(typeof(CalculatorService), baseAddress);
 
-
+           
             try 
             {
 
